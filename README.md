@@ -5,12 +5,12 @@ Agente de contabilidad personal.
 ## Instalación
 
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
 ## Uso
 
 ```bash
-jupyter notebook main.ipynb
+poetry run jupyter notebook main.ipynb
 ```
 

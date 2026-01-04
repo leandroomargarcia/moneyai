@@ -8,6 +8,9 @@ env/
 venv/
 .venv/
 
+# Poetry
+poetry.lock
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
@@ -20,3 +23,7 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Secrets - NO SUBIR
+.env
+credentials.json
+token.json
